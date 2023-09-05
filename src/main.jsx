@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       {path: '/Aparelhos' ,
     element:<Aparelhos/>
   },
-      {path: '/VisualizarAparelho' ,
+      {path: '/VisualizarAparelhos' ,
       element: <VisualizarAparelho/>
 
       }
