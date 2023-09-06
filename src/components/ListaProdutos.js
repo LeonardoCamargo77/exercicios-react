@@ -1,4 +1,4 @@
-export const visualizarProdutos = [
+export const listaProdutos = [
     {
         id: 1,
         nome: 'Celular',

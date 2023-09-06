@@ -1,9 +1,10 @@
 import { useParams, useNavigate } from "react-router-dom"
-import { ListaProdutos } from "./components/listaProdutos"
+import { listaProdutos } from "../../components/listaProdutos"
+
 
 export default function EditarProduto(){
 
-    const lista = ListaProdutos
+    const lista = listaProdutos
     const navegacao = useNavigate()
     const {id} = useParams()
 
