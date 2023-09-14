@@ -5,7 +5,7 @@ export default function Aparelhos(){
     
     return(
         <main>
-            <h1>Aparelhos Disponíveis</h1>
+            <h1 className="promocoes">APARELHOS DISPONÍVEIS</h1>
             {listaProdutos.map(prod => (
                 <div key={prod.id}>
                     <Link to={`/Aparelhos/editar/${prod.id}`}>
