@@ -7,6 +7,7 @@ import Home from './routes/Home/index.jsx'
 import Aparelhos from './routes/Aparelhos/index.jsx'
 import VisualizarAparelho from './routes/VisualizarAparelho/index.jsx'
 import Error from './routes/Error/index.jsx'
+import EditarProduto from './components/EditarProduto.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,10 +25,16 @@ const router = createBrowserRouter([
       element: <VisualizarAparelho/>
 
       },
+   
+      {
+        path: '/Aparelhos/editar/:id',
+        element: <EditarProduto/>
+      },
       {
         path: '/antiga',
         element: <Navigate to="/"/>
       }
+
     ]
   }
 ]);

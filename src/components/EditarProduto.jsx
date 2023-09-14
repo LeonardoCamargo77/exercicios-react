@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom"
-import { listaProdutos } from "../../components/listaProdutos"
-
+import { listaProdutos } from "./ListaProdutos"
 
 export default function EditarProduto(){
 
@@ -13,7 +12,7 @@ export default function EditarProduto(){
 
     const salvar = ()=>{
         alert(`Produto: ${produto.nome} editado com sucesso!`)
-        return navegacao('/produtos')
+        return navegacao('/Aparelhos')
 
     }
 
