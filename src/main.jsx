@@ -33,7 +33,12 @@ const router = createBrowserRouter([
       {
         path: '/antiga',
         element: <Navigate to="/"/>
+      },
+        {
+        path: '/Error',
+        element: <Navigate to="/"/>
       }
+
 
     ]
   }
