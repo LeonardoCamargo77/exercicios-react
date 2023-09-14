@@ -12,7 +12,7 @@ export default function EditarProduto(){
 
     const salvar = ()=>{
         alert(`Produto: ${produto.nome} editado com sucesso!`)
-        return navegacao('/Aparelhos')
+        return navegacao('/VisualizarAparelhos')
 
     }
 

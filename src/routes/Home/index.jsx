@@ -4,14 +4,14 @@ export default function Home() {
         <h1 className="promocoes">PROMOÇÕES DE CELULARES</h1>
         <div className="product-container">
           <div className="product">
-            <img src="public/iphone10.png" alt="iPhone 12 Pro" />
-            <p>R$1059,00 - iPhone 12 Pro</p>
+            <img src="public/g32.png" alt="Motorola G32" />
+            <p>R$1350,00 - Motorola G32</p>
           </div>
           <div className="product">
-            <img src="public/iphone14.png" alt="iPhone 14 Pro Max" />
-            <p>R$950 - iPhone 14 Pro Max</p>
+            <img src="public/s21.png" alt="Galaxy S21" />
+            <p>R$1750,00 - Sansumg Galaxy S21</p>
           </div>
-          {/* Adicione mais produtos conforme necessário */}
+          
         </div>
       </main>
     );
