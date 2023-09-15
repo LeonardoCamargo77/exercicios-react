@@ -9,7 +9,7 @@ export default function Aparelhos(){
             {listaProdutos.map(prod => (
                 <div key={prod.id}>
                     <Link to={`/Aparelhos/editar/${prod.id}`}>
-                        Editar o produto: {prod.nome}
+                        Visualizar o produto: {prod.nome}
                     </Link>
                 </div>
             ))}
